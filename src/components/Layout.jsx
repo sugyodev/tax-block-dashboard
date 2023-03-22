@@ -36,7 +36,7 @@ function Layout() {
         <div className='md:hidden' onClick={() => { setShowNavbarDropdown(!showNavbarDropdown) }}>
           <i className="fa fa-bars pt-3 cursor-pointer mr-2 text-white" aria-hidden="true" style={{ fontSize: 25 }}></i>
         </div>
-        {showNavbarDropdown && <div className='absolute z-10 top-24 w-full flex p-6 bg-[#0D1018] shadow-lg border-t border-[#222] left-0 shadow-black justify-between'>
+        {showNavbarDropdown && <div className='absolute sm:hidden z-20 top-24 w-full flex p-6 bg-[#0D1018] shadow-lg border-t border-[#222] left-0 shadow-black justify-between'>
           <ReactFlagsSelect
             selected={select}
             onSelect={onSelectCountry}
