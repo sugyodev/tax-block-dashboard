@@ -29,9 +29,9 @@ function Layout() {
             placeholder="Select Language"
             selectedSize={14}
           />
-          <button className='rounded text-white bg-gradient-to-r to-[#B2842C] from-[#DDC161] py-3 h-[50px] px-6'>
+          <a className='rounded text-white bg-gradient-to-r to-[#B2842C] from-[#DDC161] py-3 h-[50px] px-6' download={true} href='/sample.pdf'>
           {t('Download PDF')}
-          </button>
+          </a>
         </div>
         <div className='md:hidden' onClick={() => { setShowNavbarDropdown(!showNavbarDropdown) }}>
           <i className="fa fa-bars pt-3 cursor-pointer mr-2 text-white" aria-hidden="true" style={{ fontSize: 25 }}></i>
@@ -45,9 +45,9 @@ function Layout() {
             placeholder="Select Language"
             selectedSize={14}
           />
-          <button className='rounded text-white bg-gradient-to-r to-[#B2842C] from-[#DDC161] py-3 h-[50px] px-6'>
+          <a className='rounded text-white bg-gradient-to-r to-[#B2842C] from-[#DDC161] py-3 h-[50px] px-6' download={true} href='/sample.pdf'>
           {t('Download PDF')}
-          </button>
+          </a>
         </div>}
       </div >
       <Outlet />
