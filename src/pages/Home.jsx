@@ -34,21 +34,21 @@ function Home() {
               <p className=''><i className='fa fa-globe py-2 bg-[#524931] w-8 h-8 rounded-full mr-2 text-center my-2'></i>https://whitepaper.taxblock.network</p>
             </div>
           </div>
-          <div className='text-sm'>
-            <p className='p-4 my-3 sm:w-3/4'>
+          <div className='text-sm sm:px-16 md:px-26 lg:px-36'>
+            <p className='p-4 my-3'>
               {t(`In whatever you do, make sure that your work lies along with your eternity with GOD whose HOLINESS remains the benchmark for without which no one will see THE LORD as the day of HIS RETURN draws closer in front of us here.`)}
             </p>
-            <p className='p-4 my-3 sm:w-3/4'>
+            <p className='p-4 my-3'>
               {t(`A citation from Prophets Dr. David Owuor, former US Cancer Researcher and Professor of Pharmaceuticals whose mysterious and prophetic marks have openly revealed who `)}
               <a className='text-[#FBD125]' href='#'><u>{t('THE TWO DREADFUL WITNESSES OF REVELATION 11')}</u></a>
               &nbsp; {t('are')}
             </p>
 
-            <p className='p-4 my-3 sm:w-3/4'>
+            <p className='p-4 my-3'>
               <span className='text-[#FBD125] font-bold'>{t('NOTE:')}</span>{t(`For updates and discussions about the project whose launch is coming up soon, please`)}  <a className='text-[#FBD125]' href='#'>{t('join our community chat list.')}</a>
             </p>
           </div>
-          <div className='sm:w-4/5 p-4'>
+          <div className='p-4 sm:px-20 md:px-30 lg:px-40'>
             <h1 className='text-[#FBD125] font-bold text-4xl my-4'>
               {t('Abstract')}
             </h1>
@@ -60,7 +60,7 @@ function Home() {
               {t(`network that combines both the advantage of the tax preparation software flexibility and affordability as well as the benefits of letting taxpayers get matched with tax experts to get their tax return filings done at zero or low monetary costs depending on tax forms' complexity. Doing so, Tax & Block subsequently unleashes a distributed file storage system as an alternative to big companies’ centralized systems for the benefits of individuals and small businesses that care about data ownership and high-standard security. Furthermore, Tax & Block leverages Cosmos technology to lay out a complete blockchain framework that facilitates the development of Tax Marketplace-Specific Blockchains (TMSBs) in a few lines of code to comply with different countries’ tax systems. Finally, to support blockchain platform operations, and real-time payment transactions as well as stores of value, various tokens including a native cryptocurrency or coin named T&B make up the peer-to-peer electronic tax ecosystem.`)}
             </p>
           </div>
-          <button className='rounded text-white bg-gradient-to-r to-[#FFB22B] from-[#FBD125] py-3 h-[50px] px-6 mx-4'>
+          <button className='rounded text-white bg-gradient-to-r to-[#FFB22B] from-[#FBD125] py-3 h-[50px] px-6 ml-40'>
             {t('Learn More')}
           </button>
         </div>
